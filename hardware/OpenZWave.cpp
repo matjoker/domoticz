@@ -2390,6 +2390,11 @@ void COpenZWave::AddValue(NodeInfo* pNode, const OpenZWave::ValueID& vID)
 			}
 		}
 	}
+	else if (commandclass == COMMAND_CLASS_SOUND_SWITCH)
+	{
+		//To be defined.....
+		
+	}
 	else
 	{
 		//Unhandled
